@@ -448,7 +448,7 @@ than just the difference in data durability and running mode:
   there is no need to specify `:db/index`, similar to Datomic® Cloud. Does not
   have AEV index, in order to save storage and improve write speed.
 
-* Transaction functions should be defined with `intern-fn`, for
+* Transaction functions should be defined with `inter-fn`, for
   function serialization requires special care in order to support GraalVM.
 
 * Attributes are stored in indices as integer ids, thus attributes in index
